@@ -39,5 +39,5 @@ void stack_push(stack_t **head, unsigned int counter)
 	if (store.flag_change == 0)
 		addnode(head, node);
 	else
-		addqueue(head, node);
+		stack_enqueue(head, node);
 }
