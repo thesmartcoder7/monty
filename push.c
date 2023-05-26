@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * stack_push - this function adds a node to the stack
  * @head: the head of the stack
@@ -7,6 +8,7 @@
  */
 void stack_push(stack_t **head, unsigned int counter)
 {
+	carrier store;
 	int node, i = 0, flag = 0;
 
 	if (store.arg)
