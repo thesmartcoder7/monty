@@ -2,8 +2,8 @@
 /**
  * stack_push - this function adds a node to the stack
  * @head: the head of the stack
- * @counter: line_number
- * Return: no return
+ * @counter: code line position
+ * Return: nothing
  */
 void stack_push(stack_t **head, unsigned int counter)
 {
@@ -37,7 +37,7 @@ void stack_push(stack_t **head, unsigned int counter)
 	}
 	node = atoi(store.arg);
 	if (store.flag_change == 0)
-		addnode(head, node);
+		stack_addnode(head, node);
 	else
 		stack_enqueue(head, node);
 }
