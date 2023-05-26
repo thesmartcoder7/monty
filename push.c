@@ -8,7 +8,6 @@
  */
 void stack_push(stack_t **head, unsigned int counter)
 {
-	carrier store;
 	int node, i = 0, flag = 0;
 
 	if (store.arg)
